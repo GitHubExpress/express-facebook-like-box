@@ -1,17 +1,23 @@
 <?php
-/*
+/*************************************
 Plugin Name: Express Facebook Like Box
-Plugin URI: http://wordpress.org/plugins
-Author: Mamun
-Version: 1.0.0
-Description: Custom Made Facebook Likebox Widget Plugin
-License:     GPL2
+Plugin URI: https://wordpress.org/plugins/express-facebook-like-box
+Author: Mamunoor Rashid
+Author URI: https://www.facebook.com/ProWPDev
+Version: 1.2.1
+Description: Custom Made Facebook Like Box Widget Plugin
+License: GPL2 or Later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-*/
+*************************************/
 
+// Exit if accessed directly
+if ( ! defined( 'ABSPATH' ) ) {
+	die( '-1' ); 
+}
 
 // Action Hooks
 add_action( 'widgets_init', 'express_facebook_register_widgets' );
+
 
 // Express Facebook Widget Functions
 function express_facebook_register_widgets() {
@@ -22,7 +28,7 @@ function express_facebook_register_widgets() {
 class express_facebook_likebox_widget extends WP_Widget {
 
 	public function __construct() {
-		parent::__construct( 'express_facebook_likebox', 'Express Facebook LikeBox', array( 'description' => 'This is a custom made express facebook likebox widget plugin for WordPress' ) );
+		parent::__construct( 'express_facebook_likebox', 'Express Facebook Like Box', array( 'description' => 'This is a custom made express facebook like box widget plugin for WordPress' ) );
 	}
 
 	public function widget( $args, $instance ) {
