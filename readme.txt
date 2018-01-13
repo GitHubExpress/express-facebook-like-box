@@ -1,28 +1,36 @@
-=== Express Facebook LikeBox ===
-Contributors: unicoder
+=== Express Facebook Like Box ===
+Contributors: Mamunoor Rashid
 Tags: facebook, facebook like, facebook like box, like box
-Requires at least: 4.7.3
-Tested up to: 4.7.4
+Requires at least: 4.7
+Tested up to: Latest Version
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This is custom made WordPress widget plugin for Facebook LikeBox.
+This is a custom made WordPress widget plugin for Facebook Like Box.
 
 == Description ==
-A few notes about the sections above:
 
-*   "Contributors" unicoder
-*   "Tags" facebook, facebook like, facebook like box, like box
-*   "Requires at least" 4.7.4
-*   "Tested up to" 4.7.4 is the highest version that you've *successfully used to test the plugin*. Note that it might work on higher versions... this is just the highest one you've verified.
+*   Contributors: Mamunoor Rashid
+*   Tags: facebook, facebook like, facebook like box, like box
+*   Requires at least 4.7
+*   Tested up to latest version that I've successfully used to test the plugin. Note that it might work on higher versions ... this is just the highest one I've verified.
 
+== Installation Instructions ==
 
-== Installation ==
+Method1: 
+Login to your wp admin panel.
+Click Plugin > Add New Plugin
+Search For > Express Facebook Like Box
+Check the author > Mamunoor Rashid
+Click > Install Now
+Activate the plugin through the ‘Installed Plugins’ menu in WordPress
+You will find a widget “Express Facebook Like Box”. Just use as a Widget
 
-1. Upload `express-facebook-like-box` to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. You will find a widget "Express Facebook LikeBox". Just use as a Widget
-
+Method 2:
+Download the Plugin from WordPress Repository.
+Upload the plugin to the '/wp-content/plugins' directory
+Activate the plugin through the ‘Installed Plugins’ menu in WordPress
+You will find a widget “Express Facebook Like Box”. Just use as a Widget
 
 == Screenshots ==
 
@@ -34,13 +42,5 @@ A few notes about the sections above:
 6.`/assets/screenshot-6.png`
 
 
-== Changelog ==
-= 1.0.0 =
-* A change since the previous version.
-
-
-
-
-
 Features:
-1. Facebook Likebox with various options.
+1. Facebook Like Box Plugin with various options.
